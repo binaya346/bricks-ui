@@ -1,6 +1,7 @@
 import React from "react";
+import "./index.scss";
+import { ButtonProps } from "../../Interfaces";
 
-const Buttons = () => {
-  return <div>Buttons</div>;
+export const Button = (props: ButtonProps) => {
+  return <button className={props.type}>{props.children}</button>;
 };
-export default Buttons;

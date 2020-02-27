@@ -1,0 +1,75 @@
+.btn {
+  margin-right: 8px;
+  margin-bottom: 12px;
+  border: 1px solid;
+  text-align: center;
+  cursor: pointer;
+  height: 32px;
+  padding: 0 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.btn-lg {
+  height: 40px;
+  padding: 0 15px;
+  font-size: 16px;
+}
+.btn-sm {
+  height: 24px;
+  padding: 0 7px;
+  font-size: 14px;
+}
+.block {
+  width: 100%;
+}
+.primary {
+  background-color: #1890ff;
+  color: #fff;
+  border-color: #1890ff;
+  &:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+  }
+}
+.danger {
+  background-color: #ff4d4f;
+  color: #fff;
+  border-color: #ff4d4f;
+  &:hover {
+    background-color: #ff7875;
+    border-color: #ff7875;
+  }
+}
+.default {
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  color: rgba(0, 0, 0, 0.65);
+  &:hover {
+    color: #40a9ff;
+    border-color: #40a9ff;
+  }
+}
+.warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #212529;
+  &:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+  }
+}
+.success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+  &:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+}
+.round {
+  border-radius: 4px;
+}
+.circular {
+  border-radius: 30px;
+}
