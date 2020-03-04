@@ -2,6 +2,7 @@ import React from "react";
 import Placement from "../../pagesComponents/tooltips/placement";
 import Basic from "../../pagesComponents/tooltips/basic";
 import MainLayout from "../../layouts/mainLayout";
+import Table from "../../pagesComponents/tooltips/table";
 
 const Tooltips = () => {
   return (
@@ -44,7 +45,9 @@ const Tooltips = () => {
         </div>
       </div>
       <div className="code-api-area">
-        <div className="api-table-wrapper"></div>
+        <div className="api-table-wrapper">
+          <Table />
+        </div>
       </div>
     </MainLayout>
   );
