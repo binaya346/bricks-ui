@@ -8,7 +8,7 @@ import Block from "../../pagesComponents/buttons/block";
 import Table from "../../pagesComponents/buttons/table";
 import MainLayout from "../../layouts/mainLayout";
 
-const Buttons = () => {
+const Button = () => {
   return (
     <MainLayout>
       <div className="page-title">Button</div>
@@ -70,4 +70,4 @@ const Buttons = () => {
     </MainLayout>
   );
 };
-export default Buttons;
+export default Button;
