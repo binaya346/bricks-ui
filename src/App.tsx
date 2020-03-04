@@ -1,10 +1,21 @@
 import React from "react";
-import Button from "./components/buttons";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Buttons from "./pages/Buttons";
+import Tooltip from "./pages/Tooltip";
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <Router>
+        <Switch>
+          <Route path="/buttons">
+            <Buttons />
+          </Route>
+          <Route path="/tooltip">
+            <Tooltip />
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
