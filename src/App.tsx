@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Button from "./pages/Button";
 import Tooltip from "./pages/Tooltip";
 import Home from "./pages/Home";
+import Typography from "./pages/Typography";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </Route>
           <Route path="/tooltip">
             <Tooltip />
+          </Route>
+          <Route path="/typography">
+            <Typography />
           </Route>
           <Route path="/">
             <Home />

@@ -1,12 +1,22 @@
 .sidebar-listing-wrapper {
-  margin: 10px;
   font-size: 16px;
   font-family: "GothamSSm-Light";
-  line-height: 2;
-  .sidebar-listing-wrapper-button {
-    padding: 10px;
+  display: flex;
+  line-height: 45px;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+  color: #000;
+  height: 50px;
+  padding: 5px;
+  transition: ease-in all 0.3s;
+  &:hover {
+    color: #006BFF;
+    background-color: #E6F7FF;
   }
-  .sidebar-listing-wrapper-tooltip {
-    padding: 10px;
-  }
+}
+.active {
+  color: #006BFF;
+  background-color: #E6F7FF;
 }
