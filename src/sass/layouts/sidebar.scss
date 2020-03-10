@@ -1,12 +1,26 @@
 .sidebar-listing-wrapper {
-  margin: 10px;
-  font-size: 16px;
+  padding: 30px;
+  font-size: 14px;
   font-family: "GothamSSm-Light";
-  line-height: 2;
-  .sidebar-listing-wrapper-button {
-    padding: 10px;
+  line-height: 1.5;
+  .sidebar-listing-title {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.45);
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eaeaea;
   }
-  .sidebar-listing-wrapper-tooltip {
-    padding: 10px;
+  a {
+    text-decoration: none;
+    outline: 0;
+  }
+  .sidebar-listing-items {
+    line-height: 1.5;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #000;
+
+    &:hover {
+      color: #40a9ff;
+    }
   }
 }

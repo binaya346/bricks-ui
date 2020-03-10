@@ -29,3 +29,24 @@ export interface TooltipProps {
 export interface MainLayouts {
   children?: React.ReactNode;
 }
+export interface DropdownProps {
+  children?: React.ReactNode;
+  overlay: React.ReactNode;
+  overlayClass?: string;
+  trigger?: "hover" | "click";
+  placement?:
+    | "bottom"
+    | "bottomLeft"
+    | "bottomRight"
+    | "top"
+    | "topLeft"
+    | "topRight";
+}
+export interface MenuProps {
+  children?: React.ReactNode;
+}
+export interface MenuItemsProps {
+  children?: React.ReactNode;
+  menuClass?: string;
+  disabled?: boolean;
+}

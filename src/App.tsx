@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Button from "./pages/Button";
 import Tooltip from "./pages/Tooltip";
 import Home from "./pages/Home";
+import Dropdown from "./pages/dropdown";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
           </Route>
           <Route path="/tooltip">
             <Tooltip />
+          </Route>
+          <Route path="/dropdown">
+            <Dropdown />
           </Route>
           <Route path="/">
             <Home />
