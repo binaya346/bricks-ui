@@ -10,6 +10,20 @@
       margin-right: 0px;
       margin-bottom: 12px;
     }
+    .example-large {
+      margin: 15px 0;
+      .side-icon {
+        color: #1890ff;
+        cursor: pointer;
+        &:after {
+          content: "\003E";
+          left: 110%;
+          top: 0;
+          position: absolute;
+          transform: rotate(90deg);
+        }
+      }
+    }
   }
   .extra-margin {
     padding: 40px 20px;
