@@ -19,6 +19,7 @@ function App() {
           </Route>
           <Route path="/dropdown">
             <Dropdown />
+          </Route>
           <Route path="/typography">
             <Typography />
           </Route>

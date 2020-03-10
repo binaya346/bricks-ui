@@ -10,38 +10,42 @@ import Table from "../../pagesComponents/dropdown/table";
 const Dropdown = () => {
   return (
     <MainLayout>
-      <div className="page-title">Button</div>
+      <div className="page-title">Dropdown</div>
       <div className="code-display-area">
         <div className="code-display-when">
           <div className="when-title">When to Use</div>
           <div className="when-desc">
-            In Bricks-ui we provide 5 types of button.
+            In Bricks-ui we provide 5 types of placements in dropdown.
             <ul>
               <li>
-                Primary button: indicate main action, one primary button at most
-                in one section
+                <code>placement</code>: indicate the position of the propdown
+                items.
               </li>
               <li>
-                Default button: indicate a series of actions without priority.
+                <code>trigger</code>: indicate the action to display dropdown
+                items.
               </li>
-              <li>Dashed button: used for adding action commonly.</li>
-              <li>Warning button: indicate warning</li>
-              <li>Success button: indicate success schenario</li>
-              <li>danger button: indicate danger schenario</li>
+              <li>
+                <code>overlay</code>: list of dropdown items.
+              </li>
+
+              <li>
+                <code>overlayClass</code>: manual class for each item in the
+                dropdown.
+              </li>
+              <li>
+                <code>disabled</code>: provides disabled item in the dropdown
+                menu.
+              </li>
             </ul>
-            <p>And 4 other properties additionally.</p>
+            <p>And placement props provides 6 types of positions</p>
             <ul>
               <li>
-                <code>types</code>:used to determine the size of the button.
+                <code>topLeft</code> | <code>top</code> | <code>topRight</code>
               </li>
               <li>
-                <code>disabled</code>:when action is not available.
-              </li>
-              <li>
-                <code>block</code>:when we need button to fit on parent width.
-              </li>
-              <li>
-                <code>shapes</code>:used to determine the shape of the button.
+                <code>bottomLeft</code> | <code>bottom</code> |{" "}
+                <code>bottomRight</code>
               </li>
             </ul>
           </div>
