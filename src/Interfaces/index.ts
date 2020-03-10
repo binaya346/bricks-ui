@@ -1,3 +1,5 @@
+import { ReactChild } from "react";
+
 export interface ButtonProps {
   children?: React.ReactNode;
   type?: "primary" | "danger" | "warning" | "success" | "default" | "dashed";
@@ -50,3 +52,18 @@ export interface MenuItemsProps {
   menuClass?: string;
   disabled?: boolean;
 }
+export interface Paragraph{
+  children: ReactChild;
+  type?: "meta" | "oversized" | "long" | "h1" | "h2" | "h3"| "h4" | "h5" | "h6";
+  align?: "left" | "right" | "center" | "justify";
+  textstyle?: "normal" | "italic" | "oblique";
+  weight?: "inherit" | "initial" | "revert" | "unset" | "normal" | "bold" | "bolder" | "lighter";
+  color?: string;
+  size?: string;
+  className?: string;
+}
+export interface Hyperlink{
+  children: string;
+  url?: string;
+}
+
